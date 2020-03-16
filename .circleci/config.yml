@@ -28,9 +28,9 @@ jobs:
         - v1-dep-
     - run: git config --global user.email "circle@circleci.com"
     - run: git config --global user.name "CircleCI"
-    - run: chmod -Rv +x scripts/
-    - run: ./scripts/rebuildPatches.sh 
-    - run: ./scripts/applyPatches.sh
+  #  - run: chmod -Rv +x scripts/
+  #  - run: ./scripts/rebuildPatches.sh 
+  #  - run: ./scripts/applyPatches.sh
     # Save dependency cache
     - save_cache:
         key: v1-dep-{{ .Branch }}-{{ epoch }}
