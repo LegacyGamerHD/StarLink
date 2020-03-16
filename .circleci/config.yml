@@ -28,6 +28,7 @@ jobs:
         - v1-dep-
     - run: git config --global user.email "circle@circleci.com"
     - run: git config --global user.name "CircleCI"
+    - run: mvn clean package
   #  - run: chmod -Rv +x scripts/
   #  - run: ./scripts/rebuildPatches.sh 
   #  - run: ./scripts/applyPatches.sh
