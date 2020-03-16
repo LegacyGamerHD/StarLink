@@ -1,33 +1,30 @@
 # Eclipse stuff
-/.classpath
-/.project
-/.settings
+.classpath
+.project
+.settings/
 
 # netbeans
-/nbproject
-nb*.xml
+nbproject/
+nbactions.xml
 
 # we use maven!
-/build.xml
+build.xml
 
 # maven
-/target
+target/
 dependency-reduced-pom.xml
 
 # vim
 .*.sw[a-p]
 
 # various other potential build files
-/build
-/bin
-/dist
-/manifest.mf
-
-/world
-/logs
+build/
+bin/
+dist/
+manifest.mf
 
 # Mac filesystem dust
-.DS_Store
+.DS_Store/
 
 # intellij
 *.iml
@@ -35,7 +32,8 @@ dependency-reduced-pom.xml
 *.iws
 .idea/
 
-/src/main/resources/achievement
-/src/main/resources/lang
-/.apt_generated/
-/.apt_generated_tests/
+# other stuff
+Spigot-API
+Spigot-Server
+Bukkit
+CraftBukkit
