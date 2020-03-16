@@ -26,7 +26,7 @@ jobs:
         - v1-dep-{{ .Branch }}-
         # Any branch if there are none on the default branch - this should be unnecessary if you have your default branch configured correctly
         - v1-dep-
-    - run: apt-get install maven
+    - run: sudo apt-get install maven
     - run: git config --global user.email "circle@circleci.com"
     - run: git config --global user.name "CircleCI"
     - run: chmod -Rv +x scripts/
